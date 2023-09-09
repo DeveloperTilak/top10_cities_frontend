@@ -55,6 +55,7 @@ function City(props) {
                 borderWidth="1px"
                 borderRadius="lg"
                 overflow="hidden"
+                _hover={{boxShadow:" rgba(149, 157, 165, 0.2) 0px 8px 24px;"}}
               >
                 <Image src={element.img} alt="city image" />
 

@@ -45,7 +45,7 @@ function City(props) {
         <Heading>Top 10 Cities in UP</Heading>
         <AddNew />
       </Center>
-      <Grid gridTemplateColumns={"repeat(3, 1fr)"} marginTop={"4rem"}>
+      <Grid gridTemplateColumns={"repeat(3, 1fr)"} gap={"20px"} margin={"4rem"}>
         {data.length > 0 &&
           data.map((element, index) => {
             return (
@@ -70,7 +70,7 @@ function City(props) {
                     fontWeight="semibold"
                     as="h4"
                     lineHeight="tight"
-                    noOfLines={1}
+                    
                   >
                     {element.description}
                   </Box>

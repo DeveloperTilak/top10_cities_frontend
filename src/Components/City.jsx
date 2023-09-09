@@ -43,7 +43,7 @@ function City(props) {
     <>
       <Center>
         <Heading>Top 10 Cities in UP</Heading>
-        <AddNew />
+        {/* <AddNew /> */}
       </Center>
       <Grid gridTemplateColumns={"repeat(3, 1fr)"} gap={"20px"} margin={"4rem"}>
         {data.length > 0 &&
